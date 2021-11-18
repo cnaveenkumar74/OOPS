@@ -11,7 +11,7 @@ struct Node {
 
 // Insert at the beginning
 void insertAtBeginning(struct Node** head_ref, int new_data) {
-  // Allocate memory to a node
+// Allocate memory to a node
   struct Node* new_node = (struct Node*)malloc(sizeof(struct Node));
 
   // insert the data
